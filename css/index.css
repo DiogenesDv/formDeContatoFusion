@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 255, 255, 0.828);
+    text-align: center;
+    padding: 1rem;
+    color: aliceblue;
+    font-weight: 600;
+    text-shadow: 0px 2px 4px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+main{
+    background-color: rgba(127, 255, 212, 0.857);
+    box-shadow: 0px 0px 10px black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 70%;
+    text-align: start;
+    margin: 0 auto;
+}
+
+form label{
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    text-shadow: 0px 2px 2px aliceblue;
+    padding-top: 20px;
+}
+
+input,  textarea{
+    width: 100%;
+    padding: 8px;
+    border: 3px solid rgb(127, 187, 255);
+    box-shadow: 0px 3px 5px black;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+textarea{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+input:hover, textarea:hover, button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 3px black;
+    transition: 0.3s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 3px black;
+    color: aliceblue;
+    text-shadow: 0px 2px 4px black;
+    transition: 0.4s;
+}
+
+button{
+    margin-top: 10px;
+    border: 3px solid rgb(34, 34, 34);
+    border-radius: 4px;
+    background-color: rgba(0, 255, 255, 0.828);
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.828);
+    box-shadow: 0px -2px 10px #303030;
+    padding: 1rem;
+}
+
+.rodapeRedessociais{
+    display: flex;  
+}
+
+.redesSociais a{
+    margin-left: 5px;
+}
+
+.redesSociais a i{
+    color: #034b99;
+}
+
+.RodapenomeFinal{
+    font-weight: 600;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Silkscreen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81fb345729.js" crossorigin="anonymous"></script>
+    <script src="js/js.js" defer></script>
+    <title>Form de contato</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="">Formulario de contato Dev</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="" id="form">
+                <label for="nome" title="Seu nome">Nome:</label>
+                <input type="text" id="name" oninput="removeErroCampo(inputName)">
+
+                <label for="email" title="Seu Email">Email:</label>
+                <input type="email" id="email" oninput="removeErroCampo(inputEmail)">
+
+                <label for="assunto" title="Seu assunto">Assunto:</label>
+                <input type="text" id="assunto" oninput="removeErroCampo(inputAssunto)">
+
+                <label for="message" title="Sua mensagem">Escreva suas habilidades:</label>
+                <textarea name="message" id="message" cols="20" rows="10" oninput="removeErroCampo(textArea)"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape" id="rodape">
+        
+        <div class="rodapeRedessociais">
+
+            <div class="redesSociais">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fab fa-whatsapp-square fa-2x"></i>
+                </a>
+            </div>
+                
+            <div class="redesSociais">
+                <a href="https://www.linkedin.com/in/diogenes-oliveira-3b3a2b249/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+                
+            <div class="redesSociais">
+                <a  href="https://github.com/DiogenesDv" target="_blank">
+                    <i class="fab fab fa-github fa-2x"></i>
+                </a>
+            </div>
+
+        </div>
+        					
+        <div class="RodapenomeFinal">
+            <span>Desenvolvido por Diogenes Oliveira</span>
+        </div>     
+    
+    </footer>
+</body>
+</html>
